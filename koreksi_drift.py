@@ -1,2 +1,1 @@
-print (yolandaa)
-print ('alomani')
+print ('yolandaa')
