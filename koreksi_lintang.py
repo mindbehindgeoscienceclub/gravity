@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-data = pd.read_csv("/content/drive/MyDrive/input koreksi.csv")  
+data = pd.read_csv("/content/input koreksi.csv")
 
 # Menampilkan data awal
 print("Data Awal:")
