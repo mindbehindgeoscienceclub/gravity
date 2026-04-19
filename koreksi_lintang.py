@@ -28,7 +28,7 @@ def hitung_koreksi(data, rho=2.67):
 
     return data
 
-data = pd.read_csv("/content/input koreksi.csv")
+data = pd.read_csv("D:\DATA MBG PYTHON\GRAVITASI\input koreksi.csv")
 
 print("Data Awal:")
 print(data)
