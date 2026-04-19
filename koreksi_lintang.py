@@ -45,5 +45,3 @@ print(data[[
     "koreksi_bouguer",
     "ABS"
 ]])
-
-hasil.to_excel("/content/hasil_koreksi_lintang.xlsx", index=False)
