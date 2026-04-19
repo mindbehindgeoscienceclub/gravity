@@ -7,7 +7,7 @@ def hitung_koreksi(data, rho=2.67):
     data["desimal"] = abs(data["Latitude"])
 
     # koreksi lintang
-    lintang= np.radians(data["desimal"])
+    lat_rad= np.radians(data["desimal"])
     data["koreksi_lintang"] = 978031.7 * (1 + 0.0053024 * (np.sin(lat_rad)**2) +
         0.0000059 * (np.sin(2*lat_rad)**2))
 
@@ -46,4 +46,4 @@ print(data[[
     "ABS"
 ]])
 
-hasil.to_excel("/content/hasil_koreksi_grav.xlsx", index=False)
+hasil.to_excel("/content/hasil_koreksi_lintang.xlsx", index=False)
