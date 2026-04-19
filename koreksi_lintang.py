@@ -45,3 +45,5 @@ print(data[[
     "koreksi_bouguer",
     "ABS"
 ]])
+# SIMPAN KE EXCEL
+data.to_excel("hasil_koreksi_gravitasi.xlsx", index=False)
